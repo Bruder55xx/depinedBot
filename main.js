@@ -3,6 +3,7 @@ import banner from './utils/banner.js';
 import log from './utils/logger.js';
 import { readFile, delay } from './utils/helper.js'
 import keep_alive from './keep_alive.js';
+keep_alive();
 
 const main = async () => {
     log.info(banner);
