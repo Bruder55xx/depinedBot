@@ -2,7 +2,8 @@ import * as utils from './utils/api.js';
 import banner from './utils/banner.js';
 import log from './utils/logger.js';
 import { readFile, delay } from './utils/helper.js'
-const keep_alive = require('./keep_alive.js')
+import keep_alive from './keep_alive.js';
+
 const main = async () => {
     log.info(banner);
     await delay(3)
